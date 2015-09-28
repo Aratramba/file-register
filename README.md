@@ -26,6 +26,13 @@ register.addFiles('./files/*.txt', function(){
 ```
 
 ### API
-`addFiles(["multi-glob", "patterns"], function(){});`
-`getFile('path/to/file.txt');`
-`getAll();`
+```js
+addFiles(["multi-glob", "patterns"], function(){});
+```
+```js
+getFile('path/to/file.txt');
+```
+
+```js
+getAll();
+```
