@@ -1,7 +1,7 @@
 {
   "name": "file-register",
   "version": "0.1.0",
-  "description": "Quick lookup file in register.",
+  "description": "Adds text files into a js object with file path as key. Used for quick lookup of file contents.",
   "main": "index.js",
   "scripts": {
     "test": "tape test/test.js | faucet"
