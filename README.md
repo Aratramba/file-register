@@ -3,7 +3,7 @@ Adds text files into a js object with file path as key. Used for quick lookup of
 
 
 ```js
-var fileRegister = require('file-register.js');
+var fileRegister = require('text-file-register');
 var register = fileRegister();
 ```
 
