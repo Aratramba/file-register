@@ -1,0 +1,28 @@
+{
+  "name": "file-register",
+  "version": "0.1.0",
+  "description": "Quick lookup file in register.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/test.js | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aratramba/file-register.git"
+  },
+  "keywords": [],
+  "author": "Arjen Scherff-de Water",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aratramba/file-register/issues"
+  },
+  "homepage": "https://github.com/Aratramba/file-register",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^4.2.0"
+  },
+  "dependencies": {
+    "async": "^1.4.2",
+    "multi-glob": "^0.4.0"
+  }
+}
