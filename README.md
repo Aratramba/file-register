@@ -22,6 +22,8 @@ register.addFiles('./files/*.txt', function(){
 register.addFiles('./files/*.txt', function(){
     var obj = register.getAll();
     console.log(obj);
+    
+    // { '/path/to/file.txt': 'my text', '/path/to/file2.txt': 'my text' }
 });
 ```
 
