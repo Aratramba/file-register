@@ -1,14 +1,11 @@
-'use strict';
-/* global module, require */
-
-var glob = require('multi-glob').glob;
-var fs = require('fs');
-var path = require('path');
-var async = require('async');
+const glob = require('multi-glob').glob;
+const fs = require('fs');
+const path = require('path');
+const async = require('async');
 
 
 function fileRegister(){
-  var register = {};
+  const register = {};
 
 
   /**
