@@ -1,6 +1,6 @@
 {
   "name": "text-file-register",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Adds text files into a js object with file path as key. Used for quick lookup of file contents.",
   "main": "index.js",
   "scripts": {
